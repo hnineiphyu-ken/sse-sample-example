@@ -5,20 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEP</title>
     <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        background-color: #000000;
-        color: #ffffff;
-    }
-    div {
-        padding: 20% 44%;
-    }
-</style>
 <body>
-    
-    <div>
+    <div class="clockDiv">
         <h1 id="time">Time</h1>
-    </div>
+        <div class="clock" id="clock">
+            <div class="hand hour" id="hour"></div>
+            <div class="hand minute" id="minute"></div>
+            <div class="hand second" id="second"></div>
+            <div class="center-dot"></div>
+        </div>
+    </div>    
+    
 </body>
 </html>
